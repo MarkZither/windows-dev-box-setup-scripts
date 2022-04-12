@@ -1,4 +1,4 @@
-choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+choco install -y choco install wsl2 --params "/Version:2 /Retry:true"
 
 #--- Ubuntu ---
 # TODO: Move this to choco install once --root is included in that package
