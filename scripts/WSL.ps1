@@ -20,9 +20,9 @@ Add-AppxPackage -Path ~/Ubuntu2004.appx
 # run the distro once and have it install locally with root user, unset password
 
 RefreshEnv
-Ubuntu2004 install --root
-Ubuntu2004 run apt update
-Ubuntu2004 run apt upgrade -y
+Ubuntu install --root
+Ubuntu run apt update
+Ubuntu run apt upgrade -y
 
 <#
 NOTE: Other distros can be scripted the same way for example:
