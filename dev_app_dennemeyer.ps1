@@ -76,7 +76,6 @@ choco install -y netfx-4.7-devpack
 #--- Tools ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
 # choco install -y nodejs # Node.js Current, Latest features
-choco install -y python3 # Node.js requires Python 2 to build native modules
 
 choco upgrade all
 #--- reenabling critial items ---
