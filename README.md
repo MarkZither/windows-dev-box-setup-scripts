@@ -7,7 +7,7 @@ These scripts leverage two popular open source projects.
 - Chocolatey [chocolatey.org](http://chocolatey.org)
 
 Boxstarter is a wrapper for Chocolatey and includes features like managing reboots for you. We're using the Boxstarter web launcher to start the installation process:<br/>
-https://boxstarter.org/Learn/WebLauncher
+https://boxstarter.org/WebLauncher
 
 ## Project structure
 The script code is organized in a hierarchy
