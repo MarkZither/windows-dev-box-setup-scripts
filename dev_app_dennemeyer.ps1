@@ -78,6 +78,9 @@ choco install -y netfx-4.7-devpack
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
 # choco install -y nodejs # Node.js Current, Latest features
 
+#--- Microsoft WebDriver ---
+choco install -y microsoftwebdriver
+
 choco upgrade all
 #--- reenabling critial items ---
 Enable-UAC
