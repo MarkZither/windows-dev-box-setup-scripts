@@ -29,6 +29,7 @@ executeScript "CommonDevTools.ps1";
 executeScript "Browsers.ps1";
 executeScript "HyperV.ps1";
 executeScript "WSL.ps1";
+executeScript "WingetTools.ps1";
 
 write-host "Installing tools inside the WSL distro..."
 # Nothing here at the moment, Ubuntu 20.04 comes with Python3 
