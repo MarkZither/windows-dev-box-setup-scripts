@@ -12,7 +12,6 @@ choco install -y winmerge
 choco install -y keepass
 choco install -y wiztree
 choco install -y tortoisegit
-choco install -y conemu
 choco install -y screenpresso
 choco install -y notepadplusplus.install
 choco install -y sumatrapdf

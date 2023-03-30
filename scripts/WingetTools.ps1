@@ -20,7 +20,6 @@ if($IsWingetInstalled -Or $IsWingetBeenInstalled) { # Check if Boxstarter has be
     winget install --id=Microsoft.AzureDataStudio -e -h ;
     winget install --id=SQLiteBrowser.SQLiteBrowser -e -h ;
     winget install --id=dbeaver.dbeaver -e -h ;
-    winget install --id=StefanKueng.grepWin -e -h ;
     winget install --id=Microsoft.VC++2005Redist-x64 -e -h ;
     winget install --id=Microsoft.VC++2008Redist-x64 -e -h ;
     winget install --id=Microsoft.VC++2010Redist-x64 -e -h ;
