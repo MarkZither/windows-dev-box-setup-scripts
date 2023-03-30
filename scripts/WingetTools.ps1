@@ -12,7 +12,8 @@ if(!$IsWingetInstalled){
 }
 if($IsWingetInstalled -Or $IsWingetBeenInstalled) { # Check if Boxstarter has been executed or not to avoid double install
     Write-Output "Installing winget packages"
-    winget install --id=Microsoft.dotnet -e -h ;
+    winget install --id=Microsoft.DotNet.Runtime.6 -e -h ;
+    winget install --id=Microsoft.DotNet.SDK.6 -e -h ;
     winget install --id=Microsoft.dotNetFramework -v "4.7.1" -e -h ;
     winget install --id=Microsoft.dotNetFramework -v "4.8" -e -h ;
     winget install --id=Microsoft.AzureCLI -e -h ;
