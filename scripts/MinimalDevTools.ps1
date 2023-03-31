@@ -6,7 +6,5 @@ choco install -y tortoisegit
 choco install -y 7zip.install
 choco install -y winmerge
 choco install -y keepass
-choco install -y svn
-choco install -y tortoisesvn
-choco install -y greenshot
+choco install -y screenpresso
 choco install -y microsoft-windows-terminal
