@@ -15,8 +15,8 @@ Ubuntu1804 run apt upgrade -y
 <#
 choco install -y wsl-ubuntu-2004
 #>
-Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile ~/Ubuntu2004.appx -UseBasicParsing
-Add-AppxPackage -Path ~/Ubuntu2004.appx
+Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile ~/Ubuntu2204.appx -UseBasicParsing
+Add-AppxPackage -Path ~/Ubuntu2204.appx
 # run the distro once and have it install locally with root user, unset password
 
 RefreshEnv
