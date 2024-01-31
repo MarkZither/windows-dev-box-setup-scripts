@@ -28,6 +28,6 @@ if($IsWingetInstalled -Or $IsWingetBeenInstalled) { # Check if Boxstarter has be
     winget install --id=Microsoft.VC++2015Redist-x64 -e -h ;
     winget install --id=Microsoft.VC++2015-2019Redist-x64 -e -h ;
     winget install --id=Microsoft.VC++2017Redist-x64 -e -h ;
-    winget install --id=Postman.Postman -e -h ;
+    #winget install --id=Postman.Postman -e -h ;
     winget install --id=Microsoft.PowerShell -e -h ;
 }
