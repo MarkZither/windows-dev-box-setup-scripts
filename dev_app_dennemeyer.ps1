@@ -2,8 +2,7 @@
 # Author: Microsoft
 # Common dev settings for desktop app development
 
-## is this causing the reboot loop?
-#Disable-UAC
+Disable-UAC
 
 # Get the base URI path from the ScriptToCall value
 $bstrappackage = "-bootstrapPackage"
@@ -42,7 +41,6 @@ write-host "Finished installing tools inside the WSL distro"
 choco upgrade all
 
 #--- reenabling critial items ---
-## is this causing the reboot loop?
-#Enable-UAC
+Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
