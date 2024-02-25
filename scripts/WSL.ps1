@@ -1,4 +1,4 @@
-choco install -y wsl2 --params "/Version:2 /Retry:true"
+wsl --install
 
 #--- Ubuntu ---
 # TODO: Move this to choco install once --root is included in that package
