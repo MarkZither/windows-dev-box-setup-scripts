@@ -15,14 +15,14 @@ Ubuntu1804 run apt upgrade -y
 <#
 choco install -y wsl-ubuntu-2004
 #>
-Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile ~/Ubuntu2204.appx -UseBasicParsing
-Add-AppxPackage -Path ~/Ubuntu2204.appx
+# Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile ~/Ubuntu2204.appx -UseBasicParsing
+# Add-AppxPackage -Path ~/Ubuntu2204.appx
 # run the distro once and have it install locally with root user, unset password
 
-RefreshEnv
-Ubuntu install --root
-Ubuntu run apt update
-Ubuntu run apt upgrade -y
+# RefreshEnv
+# Ubuntu install --root
+# Ubuntu run apt update
+# Ubuntu run apt upgrade -y
 
 <#
 NOTE: Other distros can be scripted the same way for example:
